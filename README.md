@@ -53,12 +53,13 @@ Accepted values:
 - **AveYo aka @BAU**: Snippet for setting registry ownership and permission.
 - **abbodi1406**: Provided batch script tricks and help.
 - **dbenham**: Set buffer height independently of the window height.
+- **BlankedWave**: Changed popup to troll website.
 
 ---
 
 ## IDM Activation Script
 
-### Website: [www.shihabskytar.com](https://www.shihabskytar.com) 🔗  
+### Website: [BlankedWave](https://www.youtube.com/watch?v=xvFZjo5PgG0) 🔗  
 ---
 
 Update the README file for GitHub with a modern twist and captivating presentation!
