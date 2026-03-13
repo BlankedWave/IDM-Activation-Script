@@ -370,7 +370,7 @@ if not defined terminal mode 75, 28
 
 echo:
 echo:
-call :_color2 %_White% "             " %_Green% "IDM Activation X SKYTAR"
+call :_color2 %_White% "             " %_Green% "IDM Activation X BlankedWave"
 echo:            ___________________________________________________ 
 echo:
 echo:               Github: https://github.com/BlankedWave
@@ -639,10 +639,11 @@ echo:
 echo Applying registration details...
 echo:
 
-set "fname=SKYTAR"
-set "lname=Labs"
+set "fname=Activated By"
+set "lname=BlankedWave"
 
-set email=%fname%_%lname%@tonec.com
+:: set email=%fname%_%lname%@tonec.com
+set email=blankedwave.github.io
 
 for /f "delims=" %%a in ('%psc% "$key = -join ((Get-Random -Count  20 -InputObject ([char[]]('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'))));$key = ($key.Substring(0,  5) + '-' + $key.Substring(5,  5) + '-' + $key.Substring(10,  5) + '-' + $key.Substring(15,  5) + $key.Substring(20));Write-Output $key" %nul6%') do (set key=%%a)
 
@@ -924,4 +925,5 @@ exit /b
 
 ::========================================================================================================================================
 :: Leave empty line below
+
 
