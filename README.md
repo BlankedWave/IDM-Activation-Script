@@ -20,6 +20,12 @@
 ## How to Use:
 
 ### PowerShell:
+
+Method 1
+Copy and paste the line below to PowerShell
+`iex (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/BlankedWave/IDM-Activation-Script/main/IAS.ps1' -UseBasicParsing).Content`
+
+Method 2
 1. Right-click on the Windows start menu and select PowerShell or Terminal.
 2. Copy and paste the following code:
 3. Follow the on-screen instructions 📝.
