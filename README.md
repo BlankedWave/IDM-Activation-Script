@@ -67,9 +67,3 @@ Accepted values:
 ## IDM Activation Script
 
 ### Website: [BlankedWave](https://www.youtube.com/watch?v=xvFZjo5PgG0) 🔗  
----
-
-Update the README file for GitHub with a modern twist and captivating presentation!
-
---- 
-
