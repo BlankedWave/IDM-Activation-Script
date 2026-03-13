@@ -23,6 +23,7 @@
 
 Method 1
 Copy and paste the line below to PowerShell
+
 `iex (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/BlankedWave/IDM-Activation-Script/main/IAS.ps1' -UseBasicParsing).Content`
 
 Method 2
