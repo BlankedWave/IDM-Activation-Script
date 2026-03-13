@@ -8,10 +8,10 @@
 ::
 ::   IDM Activation Script (IAS)
 ::
-::   Homepages: https://github.com/shihabskytar/IDM-Activation-Script
-::              https://t.me/shihabskytar_TG/
+::   Homepages: https://github.com/BlankedWave/IDM-Activation-Script
+::              
 ::
-::       Website: www.shihabskytar.com
+::       
 ::
 ::============================================================================
 
@@ -63,7 +63,7 @@ exit /b
 ::========================================================================================================================================
 
 set "blank="
-set "mas=https://github.com/shihabskytar/IDM-Activation-Script/wiki/"
+set "mas=https://github.com/BlankedWave/IDM-Activation-Script/wiki/"
 
 ::  Check if Null service is working, it's important for the batch script
 
@@ -373,8 +373,7 @@ echo:
 call :_color2 %_White% "             " %_Green% "IDM Activation X SKYTAR"
 echo:            ___________________________________________________ 
 echo:
-echo:               Website: www.shihabskytar.com
-echo:               Github: https://github.com/shihabskytar
+echo:               Github: https://github.com/BlankedWave
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] Activate IDM [Lifetime]
@@ -392,7 +391,7 @@ choice /C:123450 /N
 set _erl=%errorlevel%
 
 if %_erl%==6 exit /b
-if %_erl%==5 start https://github.com/shihabskytar/IDM-Activation-Script & goto MainMenu
+if %_erl%==5 start https://github.com/BlankedWave/IDM-Activation-Script & goto MainMenu
 if %_erl%==4 start https://www.internetdownloadmanager.com/download.html & goto MainMenu
 if %_erl%==3 goto _reset
 if %_erl%==2 (set frz=1&goto :_activate)
@@ -581,18 +580,18 @@ call :_color %Gray% "If the fake serial screen appears, use the Freeze Trial opt
 @echo off
 echo.
 echo [1;34m*****************************[0m
-echo [1;34m*    www.shihabskytar.com   *[0m
+echo [1;34m*        BlankedWave        *[0m
 echo [1;34m*****************************[0m
 echo.
 pause
-start "" "http://www.shihabskytar.com"
+start "" "https://www.youtube.com/watch?v=xvFZjo5PgG0"
 
 ) else (
 call :_color %Green% "The IDM 30 days trial period is successfully freezed for Lifetime."
 echo:
 call :_color %Gray% "If IDM is showing a popup to register, reinstall IDM."
 echo:
-call :_color %Blue% "www.shihabskytar.com"
+call :_color %Blue% "BlankedWave"
 )
 
 ::========================================================================================================================================
@@ -925,3 +924,4 @@ exit /b
 
 ::========================================================================================================================================
 :: Leave empty line below
+
